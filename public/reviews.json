@@ -1,0 +1,65 @@
+{
+    "reviews": [
+      {
+        "header": "Consulted for Skin",
+        "customerName": "Emily Clark",
+        "place": "Sydney, Australia",
+        "reviewDate": "17/02/24",
+        "rating": 5,
+        "reviewTitle": "Very Good",
+        "description": "The consultation was insightful, and the treatment helped me feel balanced. Highly recommended!",
+        "consultationReason": "Skin Concerns"
+      },
+      {
+        "header": "Consulted for Stress Management",
+        "customerName": "John Doe",
+        "place": "New York, USA",
+        "reviewDate": "01/12/24",
+        "rating": 5,
+        "reviewTitle": "Excellent Service",
+        "description": "The team was professional and the experience was very relaxing. I felt rejuvenated after the session.",
+        "consultationReason": "Stress Management"
+      },
+      {
+        "header": "Consulted for Digestive Health",
+        "customerName": "Jane Smith",
+        "place": "London, UK",
+        "reviewDate": "05/12/24",
+        "rating": 5,
+        "reviewTitle": "One of a kind service",
+        "description": "I loved every aspect of the treatment. It was tailored to my needs, and the results were fantastic!",
+        "consultationReason": "Digestive Health"
+      },
+      {
+        "header": "Consulted for Joint Pain",
+        "customerName": "Arjun Patel",
+        "place": "Mumbai, India",
+        "reviewDate": "10/12/24",
+        "rating": 4,
+        "reviewTitle": "Highly Recommend",
+        "description": "Great atmosphere and friendly staff. They truly understand the principles of Ayurveda.",
+        "consultationReason": "Joint Pain"
+      },
+      {
+        "header": "Consulted for Weight Management",
+        "customerName": "Carlos ",
+        "place": "Madrid, Spain",
+        "reviewDate": "18/12/24",
+        "rating": 4.5,
+        "reviewTitle": "Wonderful Experience",
+        "description": "The personalized approach really stood out. I felt cared for and would definitely return.",
+        "consultationReason": "Weight Management"
+      },
+      {
+        "header": "Consulted for Overall Wellness",
+        "customerName": "Lina Chen",
+        "place": "Shanghai, China",
+        "reviewDate": "20/12/24",
+        "rating": 4.5,
+        "reviewTitle": "Exceptional Service",
+        "description": "From start to finish, everything was perfect. The follow-up sessions were very effective too.",
+        "consultationReason": "Overall Wellness"
+      }
+    ]
+  }
+  

@@ -1,0 +1,59 @@
+{
+    "experts": [
+      {
+        "image": "https://i.ibb.co.com/mCGjC93/Ellipse-725.png",
+        "rating": 4.5,
+        "name": "Dr. Vaishali Sharma",
+        "title": "Ayurveda Practitioner (BAMS, MD)",
+        "experience": "25 years of experience",
+        "specialization": "Skin Specialist",
+        "action": "Book a session"
+      },
+      {
+        "image": "https://i.ibb.co.com/mCGjC93/Ellipse-725.png",
+        "rating": 4.8,
+        "name": "Dr. Rajesh Kumar",
+        "title": "Ayurveda Practitioner (BAMS, PhD)",
+        "experience": "20 years of experience",
+        "specialization": "Digestive Health",
+        "action": "Book a session"
+      },
+      {
+        "image": "https://i.ibb.co.com/mCGjC93/Ellipse-725.png",
+        "rating": 4.7,
+        "name": "Dr. Meera Gupta",
+        "title": "Ayurveda Consultant (BAMS, MD)",
+        "experience": "15 years of experience",
+        "specialization": "Stress Management",
+        "action": "Book a session"
+      },
+      {
+        "image": "https://i.ibb.co.com/mCGjC93/Ellipse-725.png",
+        "rating": 4.6,
+        "name": "Dr. Anil Verma",
+        "title": "Ayurveda Physician (BAMS, PGDHHM)",
+        "experience": "18 years of experience",
+        "specialization": "Weight Management",
+        "action": "Book a session"
+      },
+      {
+        "image": "https://i.ibb.co.com/mCGjC93/Ellipse-725.png",
+        "rating": 4.9,
+        "name": "Dr. Sunita Desai",
+        "title": "Ayurveda Specialist (BAMS, MSc)",
+        "experience": "30 years of experience",
+        "specialization": "Joint Pain Treatment",
+        "action": "Book a session"
+      },
+      {
+        "image": "https://i.ibb.co.com/mCGjC93/Ellipse-725.png",
+        "rating": 4.4,
+        "name": "Dr. Mohan Reddy",
+        "title": "Ayurveda Therapist (BAMS, PGDDT)",
+        "experience": "12 years of experience",
+        "specialization": "Overall Wellness",
+        "action": "Book a session"
+      }
+    ]
+  }
+  

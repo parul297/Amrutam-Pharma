@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply bg-white dark:bg-gray-950;
+
+  @media (prefers-color-scheme: dark) {
+    color-scheme: dark;
+  }
+}
+.ConculationsBG{
+  background-image: url('./assets/images/conculationBG.png');
+  background-repeat: no-repeat;
+  width: 100%;
+}
+/* Center the pagination bullets */
+/* Center and position the pagination bullets below */
+.swiper-container {
+  position: relative; /* Ensure relative positioning for proper layout */
+  padding-bottom: 40px; /* Add space for pagination */
+}
+
+.swiper-wrapper-container {
+  margin-bottom: 20px; /* Space around the Swiper wrapper */
+}
+
+.swiper-pagination {
+  position: relative !important; /* Override Swiper's default positioning */
+  margin-top: 20px; /* Space below the cards */
+  text-align: center; /* Center the pagination bullets */
+}
+
+/* Style the pagination bullets */
+.swiper-pagination-bullet {
+  background-color: #3a643b !important; /* Green color for bullets */
+  opacity: 0.7;
+  width: 12px;
+  height: 12px;
+  transition: opacity 0.3s ease;
+}
+
+/* Active bullet styling */
+.swiper-pagination-bullet-active {
+  background-color: #4d964f !important; /* Darker green for active bullet */
+  opacity: 1;
+}
+.container {
+  position: relative;
+}
+
+.custom-nav-btn {
+  width: 50px !important; /* Force the size */
+  height: 50px !important; /* Force the size */
+  background-color: transparent;
+  border: 2px solid #d8d8d8;
+  border-radius: 50%; /* Make it fully rounded */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #3a643b;
+  cursor: pointer;
+  position: absolute;
+  top: 50%; /* Center vertically with respect to the slider */
+  transform: translateY(-50%);
+  z-index: 1000;
+}
+
+.swiper-button-prev.custom-nav-btn {
+  left: -20px; /* Adjust positioning for larger size */
+}
+
+.swiper-button-next.custom-nav-btn {
+  right: -20px; /* Adjust positioning for larger size */
+}
+
+.swiper-button-prev.custom-nav-btn::after {
+  content: "←";
+  font-size: 24px; /* Increase font size for better visibility */
+  font-weight: bold;
+  color: gray;
+}
+
+.swiper-button-next.custom-nav-btn::after {
+  content: "→";
+  font-size: 24px; /* Increase font size for better visibility */
+  font-weight: bold;
+  color: gray;
+}
+.swiper-button-prev.custom-nav-btn,
+.swiper-button-next.custom-nav-btn {
+  display: none;
+}
+
+/* Show the navigation buttons on medium screens (md) and larger */
+@media (min-width: 768px) {
+  .swiper-button-prev.custom-nav-btn,
+  .swiper-button-next.custom-nav-btn {
+    display: flex;
+  }
+}
